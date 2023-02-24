@@ -1,0 +1,62 @@
+.jobDetails-container {
+  position: absolute;
+  top: 2%;
+  left: 31%;
+  // transform: translate(-50%, -50%);
+  width: 500px;
+  gap: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+
+  padding: 20px;
+  column-gap: "20px";
+  .jobsDetails-inputWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+  }
+  p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #262626;
+  }
+  .detailsModal-desc {
+    p {
+      font-weight: 500;
+      padding: 32px 0 8px 0;
+      font-size: 14px;
+      line-height: 19px;
+      color: #b3b3b3;
+    }
+  }
+  .detailsModal-buttonsDiv {
+    padding-top: 20px;
+    display: flex;
+    justify-content: right;
+    gap: 24px;
+    .detailsModal-buttonsNo {
+      padding: 13px 62px;
+      width: 146px;
+      height: 48px;
+      border: 1px solid #2d5fa1;
+      border-radius: 8px;
+      color: #2d5fa1;
+      cursor: pointer;
+    }
+    .detailsModal-buttonsYes {
+      padding: 13px 60px;
+      width: 145px;
+      height: 48px;
+      background: #2d5fa1;
+      border-radius: 8px;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 12px !important;
+}

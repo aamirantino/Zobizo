@@ -1,0 +1,71 @@
+.Jobmodel-card {
+  position: absolute;
+  top: 20%;
+  left: 31%;
+  // transform: translate(-50%, -50%);
+  width: 488px;
+  height: 426px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  // display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  h3 {
+    font-weight: 500;
+    margin: 0;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+  }
+  .Jobmodal-reason {
+    display: flex;
+    align-items: center;
+    padding: 32px 0;
+    justify-content: space-between;
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+    }
+  }
+  .Jobmodal-comment {
+    h2 {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 22px;
+      margin: 0;
+      padding-bottom: 8px;
+    }
+    input {
+      border: 1px solid #f7f7f7;
+      background: #f7f7f7;
+      outline: none;
+    }
+  }
+  .Jobmodal-buttonsDiv {
+    padding-top: 40px;
+    display: flex;
+    justify-content: right;
+    gap: 24px;
+    .Jobmodal-buttonsNo {
+      padding: 13px 62px;
+      width: 146px;
+      height: 48px;
+      border: 1px solid #2d5fa1;
+      border-radius: 8px;
+      color: #2d5fa1;
+      cursor: pointer;
+    }
+    .Jobmodal-buttonsYes {
+      padding: 13px 60px;
+      width: 145px;
+      height: 48px;
+      background: #2d5fa1;
+      border-radius: 8px;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.breadCrumb-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #d74f58;
+  }
+  h3 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #4d4d4d;
+  }
+}

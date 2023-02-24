@@ -1,0 +1,78 @@
+.navbar-wrapper {
+  width: 100vw;
+  background-color: #ffffff;
+  height: 91px;
+  display: flex;
+  .left {
+    flex: 3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    img {
+      margin-left: 20px;
+    }
+  }
+  .right {
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    button {
+      background-color: #d74f58;
+      height: 46px;
+      width: 144px;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      font-size: 16px;
+      line-height: 21.79px;
+      font-weight: 500;
+      color: #ffffff;
+      cursor: pointer;
+    }
+    .navbar-profile {
+      height: 50px;
+      width: 230px;
+      display: flex;
+      .one {
+        flex: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .two {
+        flex: 4;
+        display: flex;
+        flex-direction: column;
+        .two-top {
+          flex: 1;
+          p {
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 21.79px;
+            color: #d74f58;
+          }
+        }
+        .two-bottom {
+          flex: 1;
+          p {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19.07px;
+            margin: 0;
+            padding: 0;
+            color: #4d4d4d;
+          }
+        }
+      }
+      .three {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

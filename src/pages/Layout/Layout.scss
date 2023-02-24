@@ -1,0 +1,28 @@
+.layout {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  .navbar-container {
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .layout-wrapper {
+    position: absolute;
+    top: 91px;
+    height: calc(100vh - 91px);
+    display: flex;
+    .sidebar-container {
+      position: fixed;
+      left: 0;
+      width: 195px;
+      height: calc(100vh - 91px);
+    }
+    .outlet-container {
+      margin-left: 195px;
+      width: calc(100vw - 195px);
+      background-color: #f5f5f5;
+    }
+  }
+}

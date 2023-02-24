@@ -1,0 +1,16 @@
+.header-wrapper {
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 16px;
+
+  h2 {
+    color: #2d5fa1;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    margin: 0;
+  }
+}
